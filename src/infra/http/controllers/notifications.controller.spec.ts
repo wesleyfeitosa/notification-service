@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { Notification } from '../../../application/entities/notification';
-import { NotificationsRepository } from '../../../application/repositories/notifications-repository';
-import { SendNotification } from '../../../application/use-cases/send-notification';
+import { Notification } from '@application/entities/notification';
+import { NotificationsRepository } from '@application/repositories/notifications-repository';
+import { SendNotification } from '@application/use-cases/send-notification';
 import { NotificationsController } from './notifications.controller';
 
 describe('Notifications Controller', () => {
